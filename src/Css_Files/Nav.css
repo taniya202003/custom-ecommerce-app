@@ -1,0 +1,78 @@
+.nav {
+  background-color: #990011;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo {
+  font-family: cursive;
+  margin: auto;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.nav ul {
+  margin: auto;
+  display: flex;
+  list-style: none;
+}
+
+.nav_li {
+  padding: 20px;
+}
+
+.cart_items_num {
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  border-radius: 7px;
+  width: 16px;
+  height: 17px;
+  background-color: #e34900;
+  border: 1px solid #fff;
+  font-weight:bold;
+  color: #f0f0f0;
+  line-height: 16px;
+  font-size: 12px;
+}
+
+.nav_wishlist_icon {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.nav-profile{
+  font-Family: "cursive";
+  color: "white";
+  text-Decoration: "none";
+  font-Size: "20px";
+  font-Weight: "bold";
+}
+
+.in-out-up-btn{
+  background: #ffffff;
+  color: #990011;
+  border: 1px solid red;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.4rem 1rem;
+  transition: 0.5s;
+}
+
+.in-out-up-btn:hover{
+  background-color: #e34900;
+  color: white;
+}

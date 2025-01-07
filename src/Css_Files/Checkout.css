@@ -1,0 +1,20 @@
+.list-group.mb-3,
+.card.p-2 {
+  border: 1px solid;
+}
+
+.input-group .btn,
+.btn.btn-lg.btn-block {
+  color: white;
+  font-weight: 500;
+  background-color: #990011;
+  border-color: red;
+  transition: 0.5s;
+  border: 1px solid;
+}
+.input-group .btn:hover,
+.btn:hover.btn-lg.btn-block {
+  background-color: white;
+  border: 1px solid;
+  color: #990011;
+}
